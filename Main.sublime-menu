@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "XXScript",
+        // 键盘访问键
+        "id": "xxscript",
+        "children":
+        [
+            {
+                "command": "open_url",
+                "args": {"url": "https://www.zybuluo.com/xxzhushou/note/266705"},
+                "caption": "叉叉1.9引擎开发手册"
+            },
+            {
+                "command": "open_url",
+                "args": {"url": "https://www.yuque.com/irvinpang/xxzhushou"},
+                "caption": "叉叉2.0引擎开发手册"
+            },
+        ]
+    }
+]
