@@ -92,6 +92,7 @@
         { "trigger": "showHUD(id,text,size,color,bg,pos,x,y,width,height) \t 显示HUD内容", "contents": "showHUD(${1:id},\"\",18,\"\",\"\",0,x,y,width,height)" },
         { "trigger": "hideHUD(id) \t 隐藏HUD内容", "contents": "hideHUD(${1:id})" },
         { "trigger": "asyncExec({ type, immediate, url, headers, content, callback }) \t 异步网络请求", "contents": "asyncExec({ \n\ttype = \"httpget\", -- [string]    指定httpget类型\n\timmediate = false, -- [bool] 默认false, 设置true会独立开启线程执行任务\n\turl = urlencode(\"$0\"),-- [string]    请求的URL地址，出现中文字符时需要使用urlencode进行编码\n\tcallback = function (result)\n\t\t--返回数据格式: { code = [int]错误码, data = [string]服务器返回数据 }\n\t\t-- code -1:  请求出错  -2:  请求超时  -3:  强制关闭  其他: 同http status code\n\t\t-- 注意: 虽然请求会异步执行, 但回调函数依然在lua主线程执行, 不要在回调里执行其他阻塞操作\n\t\t\n\tend\n})" },
+        { "trigger": "setUIOrientation(mode) 设置UI方向和HUD方向", "contents": "setUIOrientation(${1:0})" },
         { "trigger": "os.time()\t获取系统时间，单位秒", "contents": "os.time()" },
     ]
 }
