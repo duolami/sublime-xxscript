@@ -7,4 +7,4 @@
 
 ### 安装指引
 - sublime的Packages目录下直接执行以下命令，并重启sublime
-```git clone https://github.com/duolami/sublime-xxscript.git```
+- ```git clone https://github.com/duolami/sublime-xxscript.git```
