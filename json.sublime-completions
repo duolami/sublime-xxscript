@@ -4,6 +4,6 @@
 
     "completions":
     [
-        { "trigger": "trigger - completions", "contents": "{ \"trigger\": \"$0\", \"contents\": \"\" }," },
+        { "trigger": "trigger - completions", "contents": "{ \"trigger\": \"$0 | 2.0引擎\", \"contents\": \"$0\" }," },
     ]
 }
